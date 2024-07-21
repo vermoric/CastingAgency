@@ -9,7 +9,7 @@ ALGORITHMS = ['RS256']
 API_AUDIENCE = 'CastingAgency'
 CLIENT_ID = "lJSszaH25M3Mv2QZqbniO8pYPnxeSVMO"
 # REDIRECT_URI = "http://127.0.0.1:5000/login-results"
-REDIRECT_URI = "http://localhost/login-results"
+REDIRECT_URI = "https://castingagency-umt1.onrender.com/login-results"
 
 URL_LOGIN = ('https://{}/authorize?audience={}&response_type=token&client_id={}&redirect_uri={}'
              .format(AUTH0_DOMAIN, API_AUDIENCE, CLIENT_ID, REDIRECT_URI))
